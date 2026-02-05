@@ -1,0 +1,54 @@
+.Page{
+    padding: 5vh;
+    margin: 5vh 25vh 5vh 25vh;
+    background-color: white;
+    color: black;
+    grid-column: 2;
+}
+
+.Page p{
+    max-width: 100%;
+    word-break: break-all;
+    text-align: justify;
+    white-space: pre-wrap;
+}
+
+.Page hr{
+    margin: 0;
+}
+
+.GenInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.GenInfo .Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / -1;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.EduInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.EduInfo .Top, .ProInfo .Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.Page h2, h3{
+    text-align: justify;
+}
+
+.Bottom{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1/-1;
+}

@@ -3,3 +3,5 @@
 Project made with react that you can make a custom CV
 
 Made for The Odin Project
+
+Link for Live Preview: https://cv-application-elixd.netlify.app
